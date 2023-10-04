@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C414850C-DB88-0D30-E59E-D7B1FE2C594D" name="Bilety">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>6FCD8BF8-6663-5F06-29BA-A102DAE55FAF</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bilet_id" id="B469EA18-E450-657F-6E58-F5E7DDE8231E">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>9F74A2E4-D489-FBBB-D623-DD09D559C9A8</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_biletu" id="8F59C638-0E1D-4FCB-A0BC-4E7C468034FA">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>7FE58A14-7F6B-D22B-E8F0-B2D16427E1B0</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Siedzenia_siedzenie_id" id="DE5A98E1-3381-87FD-0ADD-48DBC02BC727">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>7541735C-EF7C-E4D6-66F8-17675EE71B93</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F53AEACC-3C96-47A5-B805-221BA0915E00" referredColumn="B1084357-3377-346C-549E-8E6A2394E47C"/>
+</associations>
+</Column>
+<Column name="Zamowienia_zamowienie_id" id="E12C7893-A42B-12C3-1BAF-732D2C2FE149">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>F8BDE516-3C74-A8CF-4E39-55A0CCB9903E</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4120FEC5-790B-226A-B774-C0F178916BDB" referredColumn="23132AEB-10F0-F172-BE7D-A91841247A40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="461BF07B-C18B-B365-E929-35BE4F53E86E" name="Bilety_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>F5D04660-C211-1164-55F8-C299EE7D37A8</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B469EA18-E450-657F-6E58-F5E7DDE8231E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73FEBA9C-E135-05AC-1978-1DA703B37B56" name="Bilety__IDX">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>161A2D08-6339-347C-32C4-DF6A9FDD644D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DE5A98E1-3381-87FD-0ADD-48DBC02BC727"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1A9DB2B-5CB7-06A8-8EB4-C637ED4ACF28" name="Bilety_Siedzenia_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>161A2D08-6339-347C-32C4-DF6A9FDD644D</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE5A98E1-3381-87FD-0ADD-48DBC02BC727"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F2B5C71-3E8F-2904-45C1-2769B567CB6D" name="Bilety_Zamowienia_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>5A18347E-8E8D-DC21-9FC0-02A2DFC04A67</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E12C7893-A42B-12C3-1BAF-732D2C2FE149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

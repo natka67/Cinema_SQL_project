@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Promocja_Bilet" directorySegmentName="seg_0" id="19016A7E-E343-2442-6E18-5F966AA1D5FE">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:23:29 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>dotyczy</nameOnSource>
+<nameOnTarget>posiada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>20AA33F6-1A2E-5231-AC7C-70E8426EDC63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FCD8BF8-6663-5F06-29BA-A102DAE55FAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

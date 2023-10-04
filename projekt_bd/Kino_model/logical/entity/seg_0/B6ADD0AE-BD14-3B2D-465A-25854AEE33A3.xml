@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6ADD0AE-BD14-3B2D-465A-25854AEE33A3" name="Platnosc">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:26:54 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Platnosci</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_platnosci" id="1B1902E3-BAA1-6503-F33D-BE3EF814B9A4">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:27:21 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numert_rachunku" id="3161EA6C-DE2E-F7E3-202F-F4B7C4211867">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:27:39 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>26</dataTypePrecision>
+<ownDataTypeParameters>,26,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="platnosc_id" id="5C2C155B-AB20-DFB2-1219-C2F20D20248F">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:27:50 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zamowienie_id" id="6780633B-3118-2C09-4B7A-4C9686B77917">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:17:40 UTC</createdTime>
+<generatorID>CF38CC33-3F87-AFC8-B517-73FD1EB840AB</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<referedAttribute>E56B306F-47FC-F3F0-F007-E28923F5800B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF6F2984-36F3-C14F-1237-FB599579FBDE" name="Płatnosc PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:28:07 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C2C155B-AB20-DFB2-1219-C2F20D20248F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

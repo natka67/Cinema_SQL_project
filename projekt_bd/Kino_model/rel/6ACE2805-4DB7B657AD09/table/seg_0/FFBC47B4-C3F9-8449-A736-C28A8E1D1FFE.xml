@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFBC47B4-C3F9-8449-A736-C28A8E1D1FFE" name="Promocja_Bilet">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Promocje_promocja_id" id="747AEA04-7143-F377-D341-129C1BCCB8DE">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F2E7752-FFF6-1C73-BAC1-0CAA7AAAEE16" referredColumn="1A94294B-2174-6011-3B1C-1816334E57D0"/>
+</associations>
+</Column>
+<Column name="Bilety_bilet_id" id="6FBE6A1C-E1E6-6E9A-D5BD-D7779AFD9E1C">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF549C3A-DB95-57FE-E054-B0FBB7FCD903" referredColumn="B469EA18-E450-657F-6E58-F5E7DDE8231E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E1BB1E1-2570-30C3-3704-112702AD5FDD" name="Promocja_Bilet_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="747AEA04-7143-F377-D341-129C1BCCB8DE"/>
+<colUsage columnID="6FBE6A1C-E1E6-6E9A-D5BD-D7779AFD9E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77B36283-5514-3B65-4E58-4089E2E024C2" name="Promocja_Bilet_Promocje_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>19016A7E-E343-2442-6E18-5F966AA1D5FE</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="747AEA04-7143-F377-D341-129C1BCCB8DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59DE0BB0-58EF-70F5-ECDE-D75F8F82BB9E" name="Promocja_Bilet_Bilety_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>19016A7E-E343-2442-6E18-5F966AA1D5FE</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FBE6A1C-E1E6-6E9A-D5BD-D7779AFD9E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

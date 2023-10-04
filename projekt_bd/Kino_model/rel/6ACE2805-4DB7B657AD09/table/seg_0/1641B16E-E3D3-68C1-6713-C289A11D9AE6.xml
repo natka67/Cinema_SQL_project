@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1641B16E-E3D3-68C1-6713-C289A11D9AE6" name="Siedzenia">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>7DB6B37B-8A79-81C7-4F48-19EF1B85FD68</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="siedzenie_id" id="B1084357-3377-346C-549E-8E6A2394E47C">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>4A9900A4-DD55-2435-0242-B4E9E99A3B60</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rzedu" id="C0388BB4-23FB-E2B2-036D-9EDC7D4219A5">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>7B5A785C-E812-7034-0EDC-9DD5BFE31D11</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dostepnosc" id="1C2A9A47-3472-8F62-E707-911F5D65F287">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>396BD6D5-D8CF-6E68-CC2D-71443676C8DB</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_sala_id" id="9F444020-C4D8-2E5C-5AF5-411A97C7A3E4">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>4037FE89-1C53-D863-1470-4845F391120A</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE0848AA-5181-7AA2-3F2F-9D3ECC2F22C6" referredColumn="E47558B8-0894-8179-7E37-8028363BC6AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D797BFFC-BAB7-9DEC-AEFE-4F83E1B92732" name="Siedzenia_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>0EF556F8-810C-47CB-8F4D-7417034AB24A</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1084357-3377-346C-549E-8E6A2394E47C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37F3D622-E0DE-AF25-7514-A422DEBE1517" name="Siedzenia_Sale_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>9499A195-E8D7-A4F9-BBAF-4CCF7C7875CB</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F444020-C4D8-2E5C-5AF5-411A97C7A3E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

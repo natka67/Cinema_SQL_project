@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCA6B113-D698-BFCC-FE27-5787061F7DC1" name="Pracownicy">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>6C254C69-DBCA-272D-6CE8-B1E4BBE8EE5E</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pracownik_id" id="C190C8E5-D1FF-E0B0-5560-FF3004C19AE8">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>FA8EB8A7-327B-F08E-8A9A-6463F4DEDF51</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="E7E5518D-4C28-42E2-846A-E219A766B4D9">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>635695F6-6006-E948-A01B-18ECB0F3B4FB</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="654F3A44-6845-5D3C-4172-946CC763A50E">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>5DCFBF89-1116-A9D1-3405-4E1981409E1B</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres_email" id="BC90A556-4CA4-0D03-B068-B1456DC749AE">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>8B5BAC5B-20D2-1166-0BC9-1CE170AECD86</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pensja" id="715E3B58-89FB-8C7F-81F0-884C0588CB5A">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>9769D046-F2C2-487C-CDB9-9C2A2728DC42</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A3F5D19-B2D5-EA99-F1E4-B0895ADAFEAB" name="Pracownicy_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>C63CF066-8BC7-958F-9349-FE838166995C</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C190C8E5-D1FF-E0B0-5560-FF3004C19AE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

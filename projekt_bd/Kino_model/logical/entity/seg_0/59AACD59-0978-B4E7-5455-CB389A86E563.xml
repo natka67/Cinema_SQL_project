@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59AACD59-0978-B4E7-5455-CB389A86E563" name="Klient">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:37:13 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Klienci</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="klient_id" id="158A30F3-4D7F-9892-1BA2-0A92927365C6">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:37:55 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="A6BA7A6D-E815-74DF-178B-55DF9BD8AF4E">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:38:12 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="0C398EBF-0801-DB87-A9D5-1C6FFDA74D4C">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:38:37 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres_email" id="E20020A6-8998-1CAE-67D1-7660202955D7">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:38:59 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer_telefonu" id="9898C59B-E525-FA43-D0E4-BB30C6458640">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:40:03 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="577A8DF9-7AAB-8CB8-9495-65AD4F273C5A" name="Klient PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:38:11 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>158A30F3-4D7F-9892-1BA2-0A92927365C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00A6B07E-DD1F-5E17-0F25-9A624C4B46A4" name="Sale">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>29315504-BA82-287D-1D4C-03902DAD82EF</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sala_id" id="E47558B8-0894-8179-7E37-8028363BC6AB">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>3D6951E4-F1F6-A34F-1E61-E8F741A7B59D</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_foteli" id="372F3196-5004-D9DA-8811-6B0026168BBA">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>D1B8A2B7-EDD0-A50F-53BD-9D4BBD7A28D3</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_rzędów" id="F5CEDABB-194C-7D6E-EF07-CF23B091F47C">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>3517C5DD-AC9D-51EF-CBC0-5D86542DAA9E</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kanapy" id="46B3385D-E843-D2A0-53D9-5DD0EA8548D9">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>F026FE80-DA60-031D-1043-80FEFB6383EA</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB7F1A6F-6B28-4643-ECE6-186EFF525D14" name="Sale_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>06CFCD7F-CD83-6E77-BDCC-3058EDC3C518</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E47558B8-0894-8179-7E37-8028363BC6AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0E7B108-7236-BDCB-D75A-0C606C381DE7" containerWithKeyObject="8754BFA5-417F-12C2-0AA9-CD81482E025C" localFKIndex="59A605D9-17B1-6F9D-49F6-30849DCC9DEC" name="Oceny_filmow_Filmy_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>C350E5FB-B343-B899-ACCF-7249AF7EBD91</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<referredTableLongName>Filmy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27966ED8-4EE3-D846-71E6-58974D172B6C</referredTableID>
+<keyObject>8FE0BC21-7F88-8E97-6F0D-B58977146D71</keyObject>
+<referredKeyID>8FE0BC21-7F88-8E97-6F0D-B58977146D71</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>film_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

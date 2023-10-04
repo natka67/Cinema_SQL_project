@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29315504-BA82-287D-1D4C-03902DAD82EF" name="Sala">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:40:26 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Sale</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sala_id" id="3D6951E4-F1F6-A34F-1E61-E8F741A7B59D">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:40:34 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liczba_foteli" id="D1B8A2B7-EDD0-A50F-53BD-9D4BBD7A28D3">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:41:07 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liczba_rzędów" id="3517C5DD-AC9D-51EF-CBC0-5D86542DAA9E">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:41:49 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kanapy" id="F026FE80-DA60-031D-1043-80FEFB6383EA">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:43:01 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06CFCD7F-CD83-6E77-BDCC-3058EDC3C518" name="Sala PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:41:10 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D6951E4-F1F6-A34F-1E61-E8F741A7B59D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

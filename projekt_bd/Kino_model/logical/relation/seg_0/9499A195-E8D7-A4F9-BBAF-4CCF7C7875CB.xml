@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sala_Siedzenie" directorySegmentName="seg_0" id="9499A195-E8D7-A4F9-BBAF-4CCF7C7875CB">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:21:36 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<sourcePk>06CFCD7F-CD83-6E77-BDCC-3058EDC3C518</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>jest w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29315504-BA82-287D-1D4C-03902DAD82EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7DB6B37B-8A79-81C7-4F48-19EF1B85FD68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

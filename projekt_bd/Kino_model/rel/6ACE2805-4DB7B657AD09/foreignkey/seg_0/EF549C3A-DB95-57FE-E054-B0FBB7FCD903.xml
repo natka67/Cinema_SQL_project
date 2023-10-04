@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF549C3A-DB95-57FE-E054-B0FBB7FCD903" containerWithKeyObject="FFBC47B4-C3F9-8449-A736-C28A8E1D1FFE" localFKIndex="59DE0BB0-58EF-70F5-ECDE-D75F8F82BB9E" name="Promocja_Bilet_Bilety_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>19016A7E-E343-2442-6E18-5F966AA1D5FE</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<referredTableLongName>Bilety</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C414850C-DB88-0D30-E59E-D7B1FE2C594D</referredTableID>
+<keyObject>461BF07B-C18B-B365-E929-35BE4F53E86E</keyObject>
+<referredKeyID>461BF07B-C18B-B365-E929-35BE4F53E86E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bilet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

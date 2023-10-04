@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FCD8BF8-6663-5F06-29BA-A102DAE55FAF" name="Bilet">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:15:29 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Bilety</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bilet_id" id="9F74A2E4-D489-FBBB-D623-DD09D559C9A8">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:15:37 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_biletu" id="7FE58A14-7F6B-D22B-E8F0-B2D16427E1B0">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:16:36 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="siedzenie_id" id="7541735C-EF7C-E4D6-66F8-17675EE71B93">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:22:37 UTC</createdTime>
+<generatorID>161A2D08-6339-347C-32C4-DF6A9FDD644D</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<referedAttribute>4A9900A4-DD55-2435-0242-B4E9E99A3B60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zamowienie_id" id="F8BDE516-3C74-A8CF-4E39-55A0CCB9903E">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:23:24 UTC</createdTime>
+<generatorID>5A18347E-8E8D-DC21-9FC0-02A2DFC04A67</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<referedAttribute>E56B306F-47FC-F3F0-F007-E28923F5800B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5D04660-C211-1164-55F8-C299EE7D37A8" name="Bilet PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:15:58 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F74A2E4-D489-FBBB-D623-DD09D559C9A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

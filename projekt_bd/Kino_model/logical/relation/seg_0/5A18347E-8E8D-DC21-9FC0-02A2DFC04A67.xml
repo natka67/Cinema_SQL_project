@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Bilet_Zamowienie" directorySegmentName="seg_0" id="5A18347E-8E8D-DC21-9FC0-02A2DFC04A67">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:22:44 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<sourcePk>9C5656F9-1814-5EDB-4759-9817340F7E47</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>jest w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A6B47CA8-7ADE-167A-483D-1276E056143D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FCD8BF8-6663-5F06-29BA-A102DAE55FAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

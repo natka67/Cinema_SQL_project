@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Platnosc_Zamowienie" directorySegmentName="seg_0" id="CF38CC33-3F87-AFC8-B517-73FD1EB840AB">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:17:09 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<sourcePk>EF6F2984-36F3-C14F-1237-FB599579FBDE</sourcePk>
+<targetPk>9C5656F9-1814-5EDB-4759-9817340F7E47</targetPk>
+<identifying>false</identifying>
+<nameOnSource>dotyczy</nameOnSource>
+<nameOnTarget>ma</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6ADD0AE-BD14-3B2D-465A-25854AEE33A3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A6B47CA8-7ADE-167A-483D-1276E056143D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Seans_Sala" directorySegmentName="seg_0" id="EC0392DA-9B63-5896-F991-D2E5D96AC285">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:20:54 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<targetPk>06CFCD7F-CD83-6E77-BDCC-3058EDC3C518</targetPk>
+<identifying>false</identifying>
+<nameOnSource>odbywa sie w</nameOnSource>
+<nameOnTarget>ma</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>35ED0912-DA3F-8425-7329-0DF990FB82FF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>29315504-BA82-287D-1D4C-03902DAD82EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

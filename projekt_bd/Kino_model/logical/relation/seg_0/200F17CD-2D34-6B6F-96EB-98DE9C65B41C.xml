@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ocena_Klient" directorySegmentName="seg_0" id="200F17CD-2D34-6B6F-96EB-98DE9C65B41C">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:18:32 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<targetPk>577A8DF9-7AAB-8CB8-9495-65AD4F273C5A</targetPk>
+<identifying>false</identifying>
+<nameOnSource>jest wystawiona przez</nameOnSource>
+<nameOnTarget>wystawia</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3E124BCB-84E3-0A0B-B808-2C2853A4D6F9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>59AACD59-0978-B4E7-5455-CB389A86E563</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8754BFA5-417F-12C2-0AA9-CD81482E025C" name="Oceny_filmow">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>3E124BCB-84E3-0A0B-B808-2C2853A4D6F9</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ocena_id" id="57553FF7-313F-C360-FCC3-E6D1547D8305">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>FBA930AA-5D81-980A-395F-4F37803A5119</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wartosc_oceny" id="21A1E195-9CF3-FB79-9326-4895A599A691">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>07035C91-8CD9-F004-CC94-178426C7A4D4</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentarz" id="DF4F0793-2D91-7DCF-D3CF-9E7FE9A84B28">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>61868A53-40DF-37F7-2140-19BC31305EC2</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_oceny" id="D4ADE40F-F64E-DABF-D3A8-E9FFE475A091">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>70B8A307-A55C-FCF4-4FEC-48968B27B992</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_klient_id" id="E2EB96A9-4D3B-CFEC-D913-291B07EB2BF6">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>B6003279-F995-DA1E-2088-6886FF334BAF</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F19D9785-6A7D-B526-BC0E-6F3DD185C5CD" referredColumn="4A71BA36-FF5B-B974-1CB1-5237967037A3"/>
+</associations>
+</Column>
+<Column name="Filmy_film_id" id="B9D20C0F-FE08-31A6-86D9-3E0F51D3D0A8">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>6965D28E-F44C-2F7E-4CC7-6BF0463A5CA7</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0E7B108-7236-BDCB-D75A-0C606C381DE7" referredColumn="BFA5BBC3-CAEC-B046-AC16-AE3D8D2BB69F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFA3908B-D77C-4923-9301-11DBC42C69DB" name="Oceny_filmu_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>C6A121B3-0E41-E655-B96F-12C13EA33AC8</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57553FF7-313F-C360-FCC3-E6D1547D8305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59A605D9-17B1-6F9D-49F6-30849DCC9DEC" name="Oceny_filmow_Filmy_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>C350E5FB-B343-B899-ACCF-7249AF7EBD91</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9D20C0F-FE08-31A6-86D9-3E0F51D3D0A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="474F0DA4-B049-8AC2-A85C-F12993987028" name="Oceny_filmow_Klienci_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>200F17CD-2D34-6B6F-96EB-98DE9C65B41C</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2EB96A9-4D3B-CFEC-D913-291B07EB2BF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

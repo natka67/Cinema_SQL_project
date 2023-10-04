@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ocena_Film" directorySegmentName="seg_0" id="C350E5FB-B343-B899-ACCF-7249AF7EBD91">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:19:20 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<targetPk>EEB1B7D6-704A-844E-45E9-968FA676E208</targetPk>
+<identifying>false</identifying>
+<nameOnSource>dotyczy</nameOnSource>
+<nameOnTarget>ma</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3E124BCB-84E3-0A0B-B808-2C2853A4D6F9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>ED51A0A4-0739-FA4B-0C10-B9ED0B2CA063</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

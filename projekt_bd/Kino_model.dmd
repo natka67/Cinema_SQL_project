@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Kino_model" id="A6045A36-BDC1-6DBC-741C-4A21E35EE1DD" version="3.5">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:21:50 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A6045A36-BDC1-6DBC-741C-4A21E35EE1DD</designId>
+</OSDM_Design>

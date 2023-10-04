@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6B47CA8-7ADE-167A-483D-1276E056143D" name="Zamowienie">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:58:51 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Zamowienia</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="zamowienie_id" id="E56B306F-47FC-F3F0-F007-E28923F5800B">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:59:09 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zamowienia" id="6E01CDE2-81DD-BB0F-E13C-2B246620FBCA">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:02:53 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="czy_internetowe" id="1487B7B3-ECCC-1FBB-9B93-B91E29798995">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 13:26:09 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klient_id" id="B634B06C-EA12-A68D-4933-A6109B8EEE53">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:18:27 UTC</createdTime>
+<generatorID>788A1474-C31C-DE10-323D-B11D793FC1EA</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<referedAttribute>158A30F3-4D7F-9892-1BA2-0A92927365C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pracownik_id" id="E81CB27E-6CDA-D8DE-A097-7D8AA746F148">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:24:54 UTC</createdTime>
+<generatorID>7D4AB20A-070E-F321-D8CE-C92888F48D95</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FA8EB8A7-327B-F08E-8A9A-6463F4DEDF51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seans_id" id="975557CD-B7F1-AB40-C767-D7FE47664D03">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:26:26 UTC</createdTime>
+<generatorID>48860BDC-4023-94FF-AA8E-B939045E03B5</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<referedAttribute>6E64DFF0-9C61-953E-5E1C-3C5FAB14E6F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C5656F9-1814-5EDB-4759-9817340F7E47" name="Rezerwacja PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:59:54 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E56B306F-47FC-F3F0-F007-E28923F5800B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

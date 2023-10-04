@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Bilet_Siedzenie" directorySegmentName="seg_0" id="161A2D08-6339-347C-32C4-DF6A9FDD644D">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:22:04 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<sourcePk>0EF556F8-810C-47CB-8F4D-7417034AB24A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>jest przypisane do</nameOnSource>
+<nameOnTarget>ma przypisane</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DB6B37B-8A79-81C7-4F48-19EF1B85FD68</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6FCD8BF8-6663-5F06-29BA-A102DAE55FAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

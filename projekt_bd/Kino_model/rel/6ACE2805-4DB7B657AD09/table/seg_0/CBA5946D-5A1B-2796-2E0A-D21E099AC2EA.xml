@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBA5946D-5A1B-2796-2E0A-D21E099AC2EA" name="Zamowienia">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>A6B47CA8-7ADE-167A-483D-1276E056143D</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zamowienie_id" id="23132AEB-10F0-F172-BE7D-A91841247A40">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>E56B306F-47FC-F3F0-F007-E28923F5800B</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zamowienia" id="BFC8D0AA-5101-9B23-3D27-A4EE1CF17C6D">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>6E01CDE2-81DD-BB0F-E13C-2B246620FBCA</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="czy_internetowe" id="2092E181-A905-DEE8-34B6-D9A2418C0251">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>1487B7B3-ECCC-1FBB-9B93-B91E29798995</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_klient_id" id="A0073795-09D6-EFFA-BB31-E02C82EDC2C0">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>B634B06C-EA12-A68D-4933-A6109B8EEE53</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9336D07-E30B-05C9-349E-9931BFB50EE0" referredColumn="4A71BA36-FF5B-B974-1CB1-5237967037A3"/>
+</associations>
+</Column>
+<Column name="Pracownicy_pracownik_id" id="4D78F1A1-66BF-97B8-951D-1136AD6D3215">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>E81CB27E-6CDA-D8DE-A097-7D8AA746F148</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C10BB9BC-5B67-E111-EE89-30FFE5BF2626" referredColumn="C190C8E5-D1FF-E0B0-5560-FF3004C19AE8"/>
+</associations>
+</Column>
+<Column name="Seanse_seans_id" id="14C7B021-90B9-3E61-699F-8B200808B254">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>975557CD-B7F1-AB40-C767-D7FE47664D03</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7055C6F7-B03C-6FC1-AC3E-5D9CCCB0E05F" referredColumn="DBB69A9D-C1E9-E4B9-AC01-C16624BD54C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7857DAAB-92D3-D4DF-D8DA-8CCE0A341A14" name="Zamowienia_PK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>9C5656F9-1814-5EDB-4759-9817340F7E47</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23132AEB-10F0-F172-BE7D-A91841247A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDEFDB94-C289-3851-FEAA-0B5D6CD6CF9E" name="Zamowienia_Klienci_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>788A1474-C31C-DE10-323D-B11D793FC1EA</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0073795-09D6-EFFA-BB31-E02C82EDC2C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F65CEF32-B5B5-595B-4C67-1E6296D4E107" name="Zamowienia_Pracownicy_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>7D4AB20A-070E-F321-D8CE-C92888F48D95</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D78F1A1-66BF-97B8-951D-1136AD6D3215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70EBA67-B546-40A4-D314-A3F576B1CE05" name="Zamowienia_Seanse_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>48860BDC-4023-94FF-AA8E-B939045E03B5</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14C7B021-90B9-3E61-699F-8B200808B254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

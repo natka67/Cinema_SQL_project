@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Klient_Zamowienie" directorySegmentName="seg_0" id="788A1474-C31C-DE10-323D-B11D793FC1EA">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:17:43 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<engineerTo>
+<item key="6ACE2805-AFF5-B651-4D6A-4DB7B657AD09" value="true"/>
+</engineerTo>
+<sourcePk>577A8DF9-7AAB-8CB8-9495-65AD4F273C5A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>sklada</nameOnSource>
+<nameOnTarget>jest zlozone przez</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59AACD59-0978-B4E7-5455-CB389A86E563</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6B47CA8-7ADE-167A-483D-1276E056143D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE0848AA-5181-7AA2-3F2F-9D3ECC2F22C6" containerWithKeyObject="1641B16E-E3D3-68C1-6713-C289A11D9AE6" localFKIndex="37F3D622-E0DE-AF25-7514-A422DEBE1517" name="Siedzenia_Sale_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>9499A195-E8D7-A4F9-BBAF-4CCF7C7875CB</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<referredTableLongName>Sale</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00A6B07E-DD1F-5E17-0F25-9A624C4B46A4</referredTableID>
+<keyObject>AB7F1A6F-6B28-4643-ECE6-186EFF525D14</keyObject>
+<referredKeyID>AB7F1A6F-6B28-4643-ECE6-186EFF525D14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

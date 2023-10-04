@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0AED1E6A-C99C-F267-F5CB-0398E31C0BD6" mainViewID="C4A41176-1B6E-55DB-620D-3822ED818016">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-17 12:21:50 UTC</createdTime>
+<ownerDesignName>Kino_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

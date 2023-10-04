@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEC3E2B2-AB5C-0A93-48CE-6AD64D74367C" containerWithKeyObject="F17824C9-2309-C372-89A8-8D0C4C2BACB7" localFKIndex="F0AA07E5-D097-DE6C-C30C-EDE49B0B6CA4" name="Seanse_Sale_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>EC0392DA-9B63-5896-F991-D2E5D96AC285</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<referredTableLongName>Sale</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00A6B07E-DD1F-5E17-0F25-9A624C4B46A4</referredTableID>
+<keyObject>AB7F1A6F-6B28-4643-ECE6-186EFF525D14</keyObject>
+<referredKeyID>AB7F1A6F-6B28-4643-ECE6-186EFF525D14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

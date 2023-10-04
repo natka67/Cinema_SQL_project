@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BDA38AC-07D6-25CE-3225-A8965158CDE9" containerWithKeyObject="F17824C9-2309-C372-89A8-8D0C4C2BACB7" localFKIndex="B3E327C2-AB4E-289B-DBF9-A206088B5770" name="Seanse_Filmy_FK">
+<createdBy>83767</createdBy>
+<createdTime>2023-01-24 12:27:38 UTC</createdTime>
+<generatorID>93483ECA-19F0-79AE-80AD-ADCAE08729E1</generatorID>
+<ownerDesignName>Kino_model</ownerDesignName>
+<referredTableLongName>Filmy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27966ED8-4EE3-D846-71E6-58974D172B6C</referredTableID>
+<keyObject>8FE0BC21-7F88-8E97-6F0D-B58977146D71</keyObject>
+<referredKeyID>8FE0BC21-7F88-8E97-6F0D-B58977146D71</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>film_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
